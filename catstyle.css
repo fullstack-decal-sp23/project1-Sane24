@@ -1,0 +1,330 @@
+/* Set the default font for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('cotnbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  /* Set the background color for the page */
+  
+  
+  /* Set the background color for the catboy divs b199c5*/
+  .catboy {
+    background-color: rgba(189, 135, 197, 0.7);
+  }
+
+  @font-face {
+    font-family: MeowFont;
+    src: url(Cute_Meow.otf);
+   }
+  
+  /* Set the font color for the h1, h2, and h3 elements */
+  h1 {
+    color:#c13fab;
+    text-align: left;
+    font-family: MeowFont;
+    font-size: 48px;
+
+
+  }
+  h2 {
+    color:antiquewhite
+  }
+  h3 {
+    color: #333333;
+  }
+  
+  /* Set the font size for the h1 element */
+  
+  /* Set the font size for the h2 element */
+  h2 {
+    font-size: 24px;
+    font-family: Times New Roman, serif;
+  }
+  
+  /* Set the font size for the h3 element */
+  h3 {
+    font-size: 18px;
+    font-family: Lucida Sans Unicode, sans-serif;
+  }
+  
+  /* Add a border to the catboy divs */
+  .catboy {
+    border: 1.7px solid #8e45cf;
+    padding: 20px;
+  }
+  
+  /* Add a hover effect to the catboy divs 859deb */
+  .catboy:hover {
+    background-color: rgba(94, 147, 169, 0.7);
+  }
+  
+  .catboy {
+    display: inline-block;
+  }
+  .catboy img {
+    
+    width: 300px;
+  }
+
+
+
+  .x {
+    background-color: rgb(135, 185, 210, 0.6);
+    font-family: Times New Roman, serif;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 30%;
+  }
+
+  /*
+  h1:hover {
+    animation: shake 0.7s;
+  }
+  */
+  
+  @keyframes shake {
+    0% {
+      transform: translate(0);
+    }
+    10% {
+      transform: translate(-7px, -7px) rotate(-5deg);
+    }
+    20% {
+      transform: translate(7px, 7px) rotate(5deg);
+    }
+    30% {
+      transform: translate(-7px, -7px) rotate(-5deg);
+    }
+    40% {
+      transform: translate(7px, 7px) rotate(5deg);
+    }
+    50% {
+      transform: translate(-7px, -7px) rotate(-5deg);
+    }
+    60% {
+      transform: translate(7px, 7px) rotate(5deg);
+    }
+    70% {
+      transform: translate(-7px, -7px) rotate(-5deg);
+    }
+    80% {
+      transform: translate(7px, 7px) rotate(5deg);
+    }
+    90% {
+      transform: translate(-7px, -7px) rotate(-5deg);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #cccccc;
+  }
+  
+  
+   /* Set the default font for the page */
+  
+   
+
+
+  /* Set the background color for the page */
+  
+  
+  /* Set the background color for the catboy divs */
+ 
+  
+  /* Set the font color for the h1, h2, and h3 elements */
+
+  h2 {
+    color:antiquewhite;
+    font-size: 24px;
+  }
+  h3 {
+    color: #333333;
+    font-size: 18px;
+  }
+  
+ 
+  
+  
+
+  h1, h2, p {
+    text-align: center;
+  }
+ /*
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul li a {
+    display: block;
+    background-color: #a5cce1;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #879dcd;
+  }
+
+*/
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 18px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #cccccc;
+  }
+  
+  h1, h2, h3, h4, p, x {
+    text-align: center;
+  }
+   
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul li a {
+    display: block;
+    background-color: #333333;
+    /* afcce1 
+    hover- 879dcd
+    */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #59738c;
+  }
+
+  
+
+  
+  
+  
+  
+  
+  
+   

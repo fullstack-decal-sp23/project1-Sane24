@@ -1,0 +1,172 @@
+
+body {
+    background-image: url("bocchiback.webp");
+    background-size: cover;
+  }
+  
+
+  
+  .contact-container {
+    transform: skewX(15deg);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 30px;
+    background-color: rgba(69, 53, 40, 0.75);
+    max-width: 20%;
+    margin-left: 4%;
+    margin-top: 100px;
+  }
+  
+  .contact-container:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+  
+
+  label {
+    
+    color: rgb(228, 212, 212);
+  }
+  
+
+
+
+h6 {
+    color: rgb(228, 212, 212);
+    margin-top: 100px;
+    margin-left: 10px
+}
+
+  
+h2 {
+    text-align: left;
+    color: pink
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+  }
+  
+  textarea {
+    height: 6em;
+  }
+  
+  button[type="submit"] {
+    background-color: #0099cc;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0077b3;
+  }
+
+
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 18px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #cccccc;
+  }
+  
+  h1, h2, h3, h4, p, x {
+    text-align: center;
+  }
+   
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul li a {
+    display: block;
+    background-color: #333333;
+    /* afcce1 
+    hover- 879dcd
+    */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #59738c;
+  }
